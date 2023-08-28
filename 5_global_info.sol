@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-3.0
 pragma solidity ^0.8.19;
 
-contract global_info {
+contract Global_info {
     function getTimeStamp() external view returns (uint256) {
         return block.timestamp;
     }
